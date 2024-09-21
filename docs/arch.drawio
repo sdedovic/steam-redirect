@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0" version="24.7.7">
+  <diagram id="Z9yIxPI-zjwXB71H6z9h" name="Page-1">
+    <mxGraphModel dx="2313" dy="881" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="apOEOS1o0XBMpkPuRqK4-26" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="120" width="850" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="apOEOS1o0XBMpkPuRqK4-4" value="AWS" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;fontStyle=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="210" y="130" width="580" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="apOEOS1o0XBMpkPuRqK4-1" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="177" width="90" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="apOEOS1o0XBMpkPuRqK4-2" value="API Gateway" style="rounded=1;whiteSpace=wrap;html=1;align=center;horizontal=1;verticalAlign=top;fontSize=14;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="230" y="150" width="120" height="213" as="geometry" />
+        </mxCell>
+        <mxCell id="apOEOS1o0XBMpkPuRqK4-15" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="450" y="300" width="330" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="apOEOS1o0XBMpkPuRqK4-5" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Lambda Function&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="apOEOS1o0XBMpkPuRqK4-15">
+          <mxGeometry y="-60" width="330" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="apOEOS1o0XBMpkPuRqK4-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="apOEOS1o0XBMpkPuRqK4-15">
+          <mxGeometry x="200" y="163" width="41" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="apOEOS1o0XBMpkPuRqK4-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="apOEOS1o0XBMpkPuRqK4-15">
+          <mxGeometry x="250" y="163" width="59" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="apOEOS1o0XBMpkPuRqK4-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="apOEOS1o0XBMpkPuRqK4-15" source="apOEOS1o0XBMpkPuRqK4-7" target="apOEOS1o0XBMpkPuRqK4-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="apOEOS1o0XBMpkPuRqK4-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="apOEOS1o0XBMpkPuRqK4-15">
+          <mxGeometry x="70" y="14" width="114" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="apOEOS1o0XBMpkPuRqK4-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="apOEOS1o0XBMpkPuRqK4-15" source="apOEOS1o0XBMpkPuRqK4-8" target="apOEOS1o0XBMpkPuRqK4-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="apOEOS1o0XBMpkPuRqK4-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="apOEOS1o0XBMpkPuRqK4-15">
+          <mxGeometry x="197" y="14" width="109" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="apOEOS1o0XBMpkPuRqK4-6" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;GET /?gameId=1234&amp;amp;args=abcdef&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;HTTP 302&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Location: steam://run/1234//abcdef/&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="apOEOS1o0XBMpkPuRqK4-15">
+          <mxGeometry x="10" y="10" width="310" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="apOEOS1o0XBMpkPuRqK4-3" value="Lambda" style="rounded=1;whiteSpace=wrap;html=1;align=center;horizontal=1;verticalAlign=middle;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="370" y="247.5" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="apOEOS1o0XBMpkPuRqK4-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="apOEOS1o0XBMpkPuRqK4-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="420" as="sourcePoint" />
+            <mxPoint x="80" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="apOEOS1o0XBMpkPuRqK4-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="apOEOS1o0XBMpkPuRqK4-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="227" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="370" y="227" />
+              <mxPoint x="450" y="227" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="apOEOS1o0XBMpkPuRqK4-23" value="&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Courier New&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;GET https://steam-redirect.dedovic.com&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/b&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;spacing=4;align=center;verticalAlign=middle;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="97" y="196" width="281" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="apOEOS1o0XBMpkPuRqK4-24" value="&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Courier New&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;HTTP 302&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Courier New&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Location: steam://run/...//.../&lt;br&gt;&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Courier New&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;spacing=4;align=left;verticalAlign=middle;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="97" y="315" width="233" height="34" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
