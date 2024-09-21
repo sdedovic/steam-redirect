@@ -34,12 +34,13 @@ resource "aws_route53_record" "main" {
   name    = local.domain_name
   type    = "A"
 
-  alias {
+  for_each = {
+    for dnc in aws_apigatewayv2_domain_name.default.domain_name_configuration : dnc.target_domain_name => dnc.hosted_zone_id
+  }
 
-    # https://github.com/hashicorp/terraform-provider-aws/issues/30850
-    # https://docs.aws.amazon.com/general/latest/gr/apigateway.html
-    zone_id                = "ZOJJZC49E0EPZ"
-    name                   = aws_apigatewayv2_api.default.api_endpoint
+  alias {
+    zone_id                = each.value
+    name                   = each.key
     evaluate_target_health = true
   }
 }
