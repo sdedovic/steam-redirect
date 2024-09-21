@@ -1,6 +1,6 @@
 export const handler = async (event) => {
-  const appId = event?.queryStringParameters?.gameId || coreKeeperAppId;
-  const args = event?.queryStringParameters?.args || gameId;
+  const appId = event.queryStringParameters.appId;
+  const args = event.queryStringParameters?.args || '';
 
   return {
     statusCode: 302,
