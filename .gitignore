@@ -1,5 +1,4 @@
-# Created by https://www.toptal.com/developers/gitignore/api/terraform,jetbrains
-# Edit at https://www.toptal.com/developers/gitignore?templates=terraform,jetbrains
+lambda-function.zip
 
 ### JetBrains ###
 .idea/
