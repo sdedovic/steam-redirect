@@ -28,6 +28,22 @@ data "aws_route53_zone" "default" {
   private_zone = false
 }
 
+# custom domain
+resource "aws_route53_record" "main" {
+  zone_id = data.aws_route53_zone.default.zone_id
+  name    = local.domain_name
+  type    = "A"
+
+  alias {
+
+    # https://github.com/hashicorp/terraform-provider-aws/issues/30850
+    # https://docs.aws.amazon.com/general/latest/gr/apigateway.html
+    zone_id                = "ZOJJZC49E0EPZ"
+    name                   = aws_apigatewayv2_api.default.api_endpoint
+    evaluate_target_health = true
+  }
+}
+
 # TLS cert
 resource "aws_acm_certificate" "default" {
   domain_name       = local.domain_name
@@ -61,7 +77,7 @@ resource "aws_acm_certificate_validation" "default" {
 
 ### API Gateway (HTTP) ###
 
-# custom domain for API gateway
+# custom domain configuration for API gateway
 resource "aws_apigatewayv2_domain_name" "default" {
   domain_name = local.domain_name
 
